@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+}
+body{
+  background-color: #F5D04E;
+}
+.blog-card-container{
+   background-color: #FFFFFF;
+   width: 340px;
+   margin: 100px auto;
+   padding: 20px;
+   height: 500px;
+   border-radius: 16px;
+   box-shadow: 9px 9px 3px 0px rgb(0, 0, 0);
+   border: 1px solid black;
+}
+
+.blog-img{
+    width: 300px;
+    border-radius: 12px;
+}
+.blog-learning{
+  background-color: #F5D04E;
+  padding:7px 14px;
+  display: inline-block;
+  margin: 15px 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 6px;
+}
+.blog-date{
+   font-weight: 400;
+}
+.blog-title{
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin: 15px 0
+}
+.blog-about{
+
+  font-size: .9rem;
+  color: #7D7D7D;
+  margin: 10px 0;
+}
+.blog-profile{
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  margin-top: 25px;
+}
